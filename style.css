@@ -1,0 +1,28 @@
+html {
+    margin:0;padding:0;
+}
+body { 
+    margin:0;padding:0;
+    background-color: #4980f718;
+    font-family: 'Indie Flower', cursive;
+}
+
+#grid-container {
+    display: grid;
+    float: right;
+    margin-top: 5vw;
+    margin-right: 5vw;
+    box-sizing: content-box;
+    height: 49vw;
+    width: 49vw;
+    border: black solid;
+}
+
+.cell {
+    border: 1px rgba(0, 0, 0, 0.041) solid;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.cell:hover {
+    background-color: aquamarine !important;
+}
